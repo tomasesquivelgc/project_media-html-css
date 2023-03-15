@@ -1,3 +1,9 @@
+body {
+    background-color: black;
+}
+
+
+
 #container.topBar {
     height: 56px;
     padding: 0 16px;
@@ -6,5 +12,5 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: #9B675C;
+    background-color: dimgrey;
 } 
