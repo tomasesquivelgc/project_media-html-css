@@ -88,7 +88,7 @@ nav li{
   #search{
   
     -ms-transform: translate(-50%, -50%);
-    transform: translate(0%, -40%);
+    transform: translate(0%, -30%);
     padding-right: 200px;
   }
  
