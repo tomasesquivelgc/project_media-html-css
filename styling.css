@@ -8,12 +8,31 @@ body {
     height: 56px;
     padding: 0 16px;
     display: flexbox;
-    display: flex;
+    display: grid;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     background-color: dimgrey;
+    
 } 
+nav{
+  position: sticky;
+}
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li{
+  display: inline-block;
+  margin-left: 35px;
+  padding-top: 5px;
+  position: static;
+}
+#container button{
+  float: left;
+}
+
 
 .sidebar {
     height: 100%; /* 100% Full-height */
@@ -60,20 +79,12 @@ body {
     color: white;
     padding: 10px 15px;
     border: none;
+    
   }
   
   .openbtn:hover {
     background-color: #444;
   }
   
-  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-  #main {
-    transition: margin-left .5s; /* If you want a transition effect */
-    padding: 20px;
-  }
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidebar {padding-top: 15px;}
-    .sidebar a {font-size: 18px;}
-  }
+ 
+ 
