@@ -85,6 +85,12 @@ nav li{
   .openbtn:hover {
     background-color: #444;
   }
+  #search{
   
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(0%, -40%);
+    padding-right: 200px;
+  }
+ 
  
  
