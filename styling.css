@@ -1,5 +1,5 @@
 body {
-    background-color: gray;
+    background-color: rgb(140, 139, 192);
 }
 
 
@@ -97,19 +97,29 @@ nav li{
     
  }
  #embeded{
+  background-color: rgb(125, 169, 175);
   padding-left: 50px;
  }
  h2{
   padding-left: 50px;
  }
- h5{
+ h6{
   padding-left:50px;
+ }
+ p{
+  padding-left: 50px;
  }
 #recommended_videos{
   float: right;
   -ms-transform: translate(-50%, -50%);
-    transform: translate(-300%, -1300%);
+    transform: translate(-10%, -98%);
+    background-color: rgb(145, 164, 182);
 }
 #recommended_videos li{
   list-style: none;
+}
+#video_description{
+  
+  width: 800px;
+  background-color: #8a679e;
 }
