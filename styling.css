@@ -107,6 +107,9 @@ nav li{
  }
 #recommended_videos{
   float: right;
-  
-    
+  -ms-transform: translate(-50%, -50%);
+    transform: translate(-300%, -1300%);
+}
+#recommended_videos li{
+  list-style: none;
 }
